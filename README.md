@@ -1,5 +1,5 @@
-# PersonalizationTheory
-MovieTweetings ALS Collaborative Filtering Project
+#MovieTweetings ALS Collaborative Filtering 
+to Increase Recommendation Accuracy for our active Twitter Users
 #Dataset:
 Bibtex: @conference{Dooms13crowdrec, author = {Dooms, Simon and De Pessemier, Toon and Martens, Luc}, title = {MovieTweetings: a Movie Rating Dataset Collected From Twitter}, booktitle = {Workshop on Crowdsourcing and Human Computation for Recommender Systems, CrowdRec at RecSys 2013}, year = {2013} }
 
