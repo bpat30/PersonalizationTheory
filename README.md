@@ -8,6 +8,4 @@ MovieTweetings is a dataset obtained by scraping Twitter for well-structured twe
 "I rated The Matrix 9/10 http://www.imdb.com/title/tt0133093/ #IMDb"
 According to the documentation, “On a daily basis the Twitter API is queried for the term ‘I rated #IMDb’.”
 
-
-![What is this](Business Mockup.png)
-![Business Mockup](Business Mockup.png)
+![Business Mockup](Business_Mockup.png)
