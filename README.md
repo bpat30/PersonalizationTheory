@@ -7,10 +7,8 @@ Our users will be able to log into Twitter where their previous movie ratings wi
 
 
 # Dataset:
-Bibtex: @conference{Dooms13crowdrec, author = {Dooms, Simon and De Pessemier, Toon and Martens, Luc}, title = {MovieTweetings: a Movie Rating Dataset Collected From Twitter}, booktitle = {Workshop on Crowdsourcing and Human Computation for Recommender Systems, CrowdRec at RecSys 2013}, year = {2013} }
 
-
-MovieTweetings is a dataset obtained by scraping Twitter for well-structured tweets for movie ratings of the form similar to the following:
+[MovieTweetings](https://github.com/sidooms/MovieTweetings) is a dataset obtained by scraping Twitter for well-structured tweets for movie ratings of the form similar to the following:
 "I rated The Matrix 9/10 http://www.imdb.com/title/tt0133093/ #IMDb"
 According to the documentation, “On a daily basis the Twitter API is queried for the term ‘I rated #IMDb’.”
 
@@ -22,3 +20,8 @@ Contains the extracted ratings are stored in the following format: user_id::movi
 
 ## movies. dat
 Contains the movies that were rated in the tweets followed by the year of release and associated genres in the following format: movie_id::movie_title (movie_year)::genre|genre|genre.
+
+# Model Selection Criteria:
+We aim to minimize RMSE while providing a minimized computation time to provide the most accurate recommendations as fast as possible. When tuning the model this shall be taken into consideration. 
+
+# Methodology:
