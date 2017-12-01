@@ -36,3 +36,20 @@ a movie though then the numerical rating may be arbitrary.  Namely this can be t
 The explicit model will take the explicit ratings from the scraped tweets into account. 
 
 Based on the resulting metrics of the two models and their computational complexity, a model will be chosen and hyperparameters will be tuned via grid search. 
+
+## File descriptions:
+MovieTweetings ALS.ipynb : The implementation of the methodology above is contained in this notebook
+
+# Results:
+The fact that the likes of incomplete information that could be easily mitigated by aggreation to augment the dataset also has not been incorporated into this model is another potential downfall. For example, the model could be altered to produce genre specific recommendations that perhaps may be more accurate. The same logic could apply to actor specific recommendations or various other facets of movies that are a high factor of influence for some users liking a particular film.
+Further in the business case, a company may want to constrain the movie choices to either a subset of films that they are streaming or, in the case of a cinema, the movies that have just hit the screens. In either case, the top 10 rated movies by our model are not necessarily the films that would be the best to increase user engagement.
+
+# Sources:
+Collaborative Filtering for Implicit Feedback Datasets by Yifan Hu, Yehuda Koren and Chris Volinsky
+
+Introduction to Statistical Machine Learning by Sugiyama, Masashi
+
+IBM Data Science Experience
+
+Recommender Systems by Aggarwal, Charu C.
+
