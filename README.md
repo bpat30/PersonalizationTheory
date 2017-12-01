@@ -25,3 +25,14 @@ Contains the movies that were rated in the tweets followed by the year of releas
 We aim to minimize RMSE while providing a minimized computation time to provide the most accurate recommendations as fast as possible. When tuning the model this shall be taken into consideration. 
 
 # Methodology:
+
+Primary exploratory data analysis and visualization will be done to explore the dataset at hand.
+
+We will be undertaking a Spark implementation of ALS (Alternating Least Squares) with implicit feedback and explicit numerical ratings models taken into consideration. Implicit feedback will be of the form like versus dislike based on a threshold of a rating of 5. 
+
+The assumptions underlying the implicit feedback model is that an individual may exhibit voluntary response bias, only rating and subsequently tweeting when they strongly feel a certain way about
+a movie though then the numerical rating may be arbitrary.  Namely this can be thought of as a user will tweet their rating about a movie when they love the movie or hate it. Further a priori to their rating, the user may have felt that they would enjoy they movie, which is why they watched it. Taking into account these factors, the implicit feedback model is considered. 
+
+The explicit model will take the explicit ratings from the scraped tweets into account. 
+
+Based on the resulting metrics of the two models and their computational complexity, a model will be chosen and tuned. 
