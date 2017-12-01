@@ -35,4 +35,4 @@ a movie though then the numerical rating may be arbitrary.  Namely this can be t
 
 The explicit model will take the explicit ratings from the scraped tweets into account. 
 
-Based on the resulting metrics of the two models and their computational complexity, a model will be chosen and tuned. 
+Based on the resulting metrics of the two models and their computational complexity, a model will be chosen and hyperparameters will be tuned via grid search. 
