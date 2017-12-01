@@ -1,5 +1,5 @@
 # MovieTweetings ALS Collaborative Filtering 
-## Business Objective: Increase Recommendation Accuracy for our active Twitter Users
+## <span style="color:blue"> Business Objective: Increase Recommendation Accuracy for our active Twitter Users<span style="color:blue">
 
 ![Business Mockup](Business_Mockup.png)
 
