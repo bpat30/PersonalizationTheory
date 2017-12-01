@@ -14,4 +14,11 @@ MovieTweetings is a dataset obtained by scraping Twitter for well-structured twe
 "I rated The Matrix 9/10 http://www.imdb.com/title/tt0133093/ #IMDb"
 According to the documentation, “On a daily basis the Twitter API is queried for the term ‘I rated #IMDb’.”
 
+## users.dat
+Contains the mapping of the users ids on their true Twitter id in the following format: userid::twitter_id. 
 
+## ratings.dat
+Contains the extracted ratings are stored in the following format: user_id::movie_id::rating::rating_timestamp.
+
+## movies. dat
+Contains the movies that were rated in the tweets followed by the year of release and associated genres in the following format: movie_id::movie_title (movie_year)::genre|genre|genre.
