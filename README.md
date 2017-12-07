@@ -55,11 +55,14 @@ The explicit model will take the explicit ratings from the scraped tweets into a
 
 Based on the resulting metrics of the two models and their computational complexity, a model will be chosen and hyperparameters will be tuned via grid search. 
 
+Finally, the model will then be used to predict the top 3 New movies for a user. The definition of new movie will be the top three newest movies with high prediction or rating value for a respective user which may be a movie that is over one year old.
+
 ## File descriptions:
 MovieTweetings ALS.ipynb : The implementation of the methodology above is contained in this notebook
 
 # Implementations:
 
+![Implementation](Implementation.png)
 In Phase 0, we created a [GraphLab implementation of a collaborative filtering based recommender](https://github.com/xenaritu/Personalisation)  on the widely used and studied MovieLens dataset. However, we were not  comfortable operationalizing this as the scale of the dataset is minute compared to the scale of data that the business would be requiring in order to provide customers with the best and most informed decisions. Further, the algorithm itself was not scalable. Potential watch outs would be that the dataset in use is overfitting to the small dataset and, thus, would not provide the optimal recommendations given the larger dataset size. Another goal was to provide novel recommendations to users which was not adequately addressed in this model. 
 
 In Phase I, the MovieTweetings dataset provided a mechanism for a regularly updated source of ratings which is obtained by scraping Twitter for well-structured tweets. By analyzing the differences between implicit feedback and explicit ratings it was found that the implicit feedback model was able to capture user preferences without explicit ratings as approximately 75% of the true top 3 ratings were captured by the model. This supported the intuition that the sharing of a tweet in regards to a movie provided insight into the opinion of the user itself. Namely, there was likely a strong response to the movie that was compelling enough to share the tweet via Twitter. Further, the total MovieTweetings dataset showed that over 70% of the tweets were high ratings which supported this assumption.  
