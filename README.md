@@ -24,7 +24,7 @@ Contains the movies that were rated in the tweets followed by the year of releas
 
 
 # Model Selection Criteria:
-We aim to minimize RMSE while providing a minimized computation time to provide the most accurate recommendations as fast as possible. This tradeoff will be qualitatively considered as well as with quanifiable metrics including RMSE and a modified version of recall -- 
+We aim to minimize RMSE while providing a minimized computation time to provide the most accurate recommendations as fast as possible. This tradeoff will be qualitatively considered as well as with quantifiable metrics including RMSE and a modified version of recall -- the metric of the percentage of top 3 ratings from the test data set that is not captured in the predicted set. 
 
 # Methodology:
 
