@@ -21,22 +21,6 @@ Contains the extracted ratings are stored in the following format: user_id::movi
 ## movies. dat
 Contains the movies that were rated in the tweets followed by the year of release and associated genres in the following format: movie_id::movie_title (movie_year)::genre|genre|genre.
 
-# Required Packages & Setup 
-The model is build using python 2.7 and spark 2.2.0. Below is a list of packages that have to be installed for the same:
-
-•Pandas
-
-•Matplotlib
-
-•Pyspark
-
-•Numpy
-
-•Seaborn
-
-•pyspark.ml.recommendation – ALS, CrossValidator, ParamGridBuilder, RegressionEvaluator
-
-•Pylab
 
 
 # Model Selection Criteria:
@@ -59,6 +43,8 @@ Finally, the model will then be used to predict the top 3 New movies for a user.
 
 ## File descriptions:
 MovieTweetings ALS.ipynb : The implementation of the methodology above is contained in this notebook
+
+requirements: Contains information on all software/package requirements to run the code
 
 # Implementations:
 
