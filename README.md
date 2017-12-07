@@ -21,8 +21,19 @@ Contains the extracted ratings are stored in the following format: user_id::movi
 ## movies. dat
 Contains the movies that were rated in the tweets followed by the year of release and associated genres in the following format: movie_id::movie_title (movie_year)::genre|genre|genre.
 
+# Required Packages & Setup 
+The model is build using python 2.7 and spark 2.2.0. Below is a list of packages that have to be installed for the same:
+•Pandas
+•Matplotlib
+•Pyspark
+•Numpy
+•Seaborn
+•pyspark.ml.recommendation – ALS, CrossValidator, ParamGridBuilder, RegressionEvaluator
+•Pylab
+
+
 # Model Selection Criteria:
-We aim to minimize RMSE while providing a minimized computation time to provide the most accurate recommendations as fast as possible. When tuning the model this shall be taken into consideration. 
+We aim to minimize RMSE while providing a minimized computation time to provide the most accurate recommendations as fast as possible. This tradeoff will be qualitatively considered as well as with quanifiable metrics including RMSE and a modified version of recall -- 
 
 # Methodology:
 
