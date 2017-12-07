@@ -23,12 +23,19 @@ Contains the movies that were rated in the tweets followed by the year of releas
 
 # Required Packages & Setup 
 The model is build using python 2.7 and spark 2.2.0. Below is a list of packages that have to be installed for the same:
+
 •Pandas
+
 •Matplotlib
+
 •Pyspark
+
 •Numpy
+
 •Seaborn
+
 •pyspark.ml.recommendation – ALS, CrossValidator, ParamGridBuilder, RegressionEvaluator
+
 •Pylab
 
 
