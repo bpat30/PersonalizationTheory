@@ -30,7 +30,7 @@ We aim to minimize RMSE while providing a minimized computation time to provide 
 
 Primary exploratory data analysis and visualization will be done to explore the dataset at hand.
 
-We will be undertaking a Spark implementation of ALS (Alternating Least Squares) with implicit feedback and explicit numerical ratings models taken into consideration. Implicit feedback will be of the form like versus dislike based on a threshold of a rating of 5. 
+We will be undertaking a Spark implementation of ALS (Alternating Least Squares) with implicit feedback and explicit numerical ratings models taken into consideration. Implicit feedback will be of the form like versus dislike based on a threshold of a rating of 5 taking rating as a strength of observation as opposed to an explicit numerical rating. 
 
 The assumptions underlying the implicit feedback model is that an individual may exhibit voluntary response bias, only rating and subsequently tweeting when they strongly feel a certain way about
 a movie though then the numerical rating may be arbitrary.  Namely this can be thought of as a user will tweet their rating about a movie when they love the movie or hate it. Further a priori to their rating, the user may have felt that they would enjoy they movie, which is why they watched it. Taking into account these factors, the implicit feedback model is considered. 
