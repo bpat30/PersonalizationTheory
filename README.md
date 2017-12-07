@@ -39,7 +39,7 @@ The explicit model will take the explicit ratings from the scraped tweets into a
 
 Based on the resulting metrics of the two models and their computational complexity, a model will be chosen and hyperparameters will be tuned via grid search. 
 
-Finally, the model will then be used to predict the top 3 New movies for a user. The definition of new movie will be the top three newest movies with high prediction or rating value for a respective user which may be a movie that is over one year old.
+Finally, the model will then be extended to predict the top 3 New movies for a user. The definition of new movie will be the top three newest movies with high prediction or rating value for a respective user which may be a movie that is over one year old. 
 
 ## File descriptions:
 MovieTweetings ALS.ipynb : The implementation of the methodology above is contained in this notebook
